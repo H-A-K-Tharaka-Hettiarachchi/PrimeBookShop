@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Prime Book Shop</title>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css"/>
+
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: Arial, sans-serif;
+                background-color: #f9f9f9;
+                display: flex;
+                height: 100vh;
+                justify-content: center;
+                align-items: center;
+            }
+            .container {
+                display: flex;
+                width: 100%;
+                max-width: 1200px;
+                margin: auto;
+                background-color: #ffffff;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                overflow: hidden;
+            }
+            .side-image {
+                flex: 1;
+                background: url('assets/img/banner/mail-verification-banner.png') no-repeat center;
+                background-size: cover;
+                border-top-left-radius: 8px;
+                border-bottom-left-radius: 8px;
+            }
+            .verification-content {
+                flex: 1;
+                padding: 40px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            .verification-content h1 {
+                font-size: 24px;
+                margin-bottom: 20px;
+                color: #333;
+            }
+            .verification-content p {
+                font-size: 16px;
+                color: #666;
+                margin-bottom: 30px;
+            }
+            .verification-content input {
+                width: 100%;
+                max-width: 400px;
+                padding: 12px;
+                font-size: 16px;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                margin-bottom: 20px;
+            }
+            .verification-content .verify-button {
+                background-color: #003366;
+                color: #fff;
+                padding: 12px 20px;
+                font-size: 16px;
+                text-align: center;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                width: 100%;
+                max-width: 400px;
+            }
+            .verification-content .verify-button:hover {
+                background-color: #0056b3;
+            }
+            .verification-content .sign-in {
+                margin-top: 20px;
+                text-align: center;
+            }
+            .verification-content .sign-in a {
+                color: #ff3e67;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+            /* Responsive Design */
+            @media screen and (max-width: 768px) {
+                .container {
+                    flex-direction: column;
+                    max-width: 100%;
+                    height: 100vh;
+                }
+                .side-image {
+                    border-radius: 0;
+                    height: 300px;
+                    border-bottom-left-radius: 0;
+                    border-top-left-radius: 0;
+                    background-position: center;
+                }
+                .verification-content {
+                    padding: 20px;
+                }
+                .verification-content input, 
+                .verification-content .verify-button {
+                    max-width: 100%;
+                }
+            }
+
+            @media screen and (max-width: 480px) {
+                .verification-content h1 {
+                    font-size: 20px;
+                }
+                .verification-content p {
+                    font-size: 14px;
+                }
+                .verification-content input {
+                    padding: 10px;
+                }
+                .verification-content .verify-button {
+                    padding: 10px 15px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <!-- Left Side Image -->
+            <div class="side-image"></div>
+
+            <!-- Right Side Verification Form -->
+            <div class="verification-content">
+                <h1>Verify Your Account</h1>
+                <p>Please enter the verification code sent to your email to secure your account and unlock all features.</p>
+                <input type="text" placeholder="Enter Verification Code" id="verificationCode" />
+                <button class="verify-button " onclick="verify()">Verify & Continue</button>
+                <div class="sign-in">
+                    <p>Already Verified? <a href="login.html">Log In</a></p>
+                </div>
+            </div>
+        </div>
+
+        <script src="assets/js/verification/verification.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    </body>
+</html>

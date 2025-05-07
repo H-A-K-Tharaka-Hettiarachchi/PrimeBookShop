@@ -1,0 +1,15 @@
+
+.btn-submit {
+    width: 100%;
+    padding: 12px;
+    background-color: #2b5876; /* Dark blue button color */
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btn-submit:hover {
+    background-color: #4f8bba; /* Lighter blue on hover */
+}

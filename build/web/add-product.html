@@ -1,0 +1,687 @@
+<!DOCTYPE html><html lang="en"><head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Prime Book Shop</title>
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="favicon.ico">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/dataTables.bootstrap4.min.css">
+        <!-- Typography CSS -->
+        <!--<link rel="stylesheet" href="css/typography.css">-->
+        <!-- Style CSS -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- Responsive CSS -->
+        <link rel="stylesheet" href="css/responsive.css">
+
+        <!<!-- **************************NEW CSS**************************** -->
+
+        <!--<< Favcion >>-->
+        <link rel="shortcut icon" href="assets/img/favicon.png">
+        <!--<< Bootstrap min.css >>-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!--<< All Min Css >>-->
+        <link rel="stylesheet" href="assets/css/all.min.css">
+        <!--<< Animate.css >>-->
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <!--<< Magnific Popup.css >>-->
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <!--<< MeanMenu.css >>-->
+        <link rel="stylesheet" href="assets/css/meanmenu.css">
+        <!--<< Swiper Bundle.css >>-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <!--<< Nice Select.css >>-->
+        <link rel="stylesheet" href="assets/css/nice-select.css">
+        <!--<< Icomoon.css >>-->
+        <link rel="stylesheet" href="assets/css/icomoon.css">
+        <!--<< Main.css >>-->
+        <link rel="stylesheet" href="assets/css/main.css">
+
+    </head>
+    <body>
+        <!-- loader Start -->
+        <div id="preloader" class="preloader">
+            <div class="animation-preloader">
+                <div class="spinner">
+                </div>
+                <div class="txt-loading">
+                    <span data-text-preloader="P" class="letters-loading">
+                        P
+                    </span>
+                    <span data-text-preloader="R" class="letters-loading">
+                        R
+                    </span>
+                    <span data-text-preloader="I" class="letters-loading">
+                        I
+                    </span>
+                    <span data-text-preloader="M" class="letters-loading">
+                        M
+                    </span>
+                    <span data-text-preloader="E" class="letters-loading">
+                        E
+                    </span>
+                    <span data-text-preloader="B" class="letters-loading">
+                        B
+                    </span>
+                    <span data-text-preloader="O" class="letters-loading">
+                        O
+                    </span>
+                    <span data-text-preloader="O" class="letters-loading">
+                        O
+                    </span>
+                    <span data-text-preloader="K" class="letters-loading">
+                        K
+                    </span>
+                    <span data-text-preloader="S" class="letters-loading">
+                        S
+                    </span>
+
+                </div>
+                <p class="text-center">Loading</p>
+            </div>
+            <div class="loader">
+                <div class="row">
+                    <div class="col-3 loader-section section-left">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-left">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-right">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-right">
+                        <div class="bg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- loader END -->
+
+        <!-- Wrapper Start -->
+        <div class="wrapper">
+
+            <!-- Offcanvas Area start  -->
+            <div class="fix-area">
+                <div class="offcanvas__info">
+                    <div class="offcanvas__wrapper">
+                        <div class="offcanvas__content">
+                            <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
+                                <div class="offcanvas__logo">
+                                    <a href="index.html">
+                                        <img src="assets/img/logo/black-logo.svg" alt="logo-img">
+                                    </a>
+                                </div>
+                                <div class="offcanvas__close">
+                                    <button>
+                                        <i class="fas fa-times"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <p class="text d-none d-xl-block">
+                                Prime Book Shop is an online bookstore offering a wide range of books, providing convenient shopping and fast delivery for book lovers everywhere.
+                            </p>
+                            <div class="mobile-menu fix mb-3"></div>
+                            <div class="offcanvas__contact">
+                                <h4>Contact Info</h4>
+                                <ul>
+                                    <li class="d-flex align-items-center">
+                                        <div class="offcanvas__contact-icon">
+                                            <i class="fal fa-map-marker-alt"></i>
+                                        </div>
+                                        <div class="offcanvas__contact-text">
+                                            <a target="_blank" href="index.html">183/5/I, Wanaluwawa North</a>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <div class="offcanvas__contact-icon mr-15">
+                                            <i class="fal fa-envelope"></i>
+                                        </div>
+                                        <div class="offcanvas__contact-text">
+                                            <a href="mailto:kshprimekshithija11@gmail.com"><span class="mailto:kshprimekshithija11@gmail.com">kshprimekshithija11@gmail.com</span></a>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <div class="offcanvas__contact-icon mr-15">
+                                            <i class="fal fa-clock"></i>
+                                        </div>
+                                        <div class="offcanvas__contact-text">
+                                            <a target="_blank" href="index.html">Mod-friday, 08am -05pm</a>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <div class="offcanvas__contact-icon mr-15">
+                                            <i class="far fa-phone"></i>
+                                        </div>
+                                        <div class="offcanvas__contact-text">
+                                            <a href="tel:+94762206166">+94 76 220 6166</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="header-button mt-4">
+                                    <a href="contact.html" class="theme-btn text-center">
+                                        Get A Quote <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+                                <div class="social-icon d-flex align-items-center">
+                                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://x.com/"><i class="fab fa-twitter"></i></a>
+                                    <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                                    <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="offcanvas__overlay"></div> 
+
+            <!-- Header Top start  -->
+            <div class="header-top-1" id="header-top">
+            </div>
+
+            <!-- Sticky Header Section start  -->
+            <header class="header-1 sticky-header" id="sticky-container">
+
+                <div class="mega-menu-wrapper">
+                    <div class="header-main">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-6 col-md-6 col-lg-10 col-xl-8 col-xxl-10">
+                                    <div class="header-left">
+                                        <div class="logo">
+                                            <a href="index.html" class="header-logo ">
+                                                <img src="assets/img/logo/white-logo.svg" alt="logo-img">
+                                            </a>
+                                        </div>
+                                        <div class="mean__menu-wrapper">
+                                            <div class="main-menu">
+                                                <nav>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="index.html">
+                                                                Home
+                                                                <i class="fas fa-angle-down"></i>
+                                                            </a>
+
+                                                        </li>
+                                                        <li>
+                                                            <a href="shop.html">
+                                                                Shop
+                                                                <i class="fas fa-angle-down"></i>
+                                                            </a>
+                                                            <ul class="submenu">
+                                                                <li><a href="shop.html">Shop Default</a></li>
+                                                                <li><a href="shop-list.html">Shop List</a></li>
+                                                                <li><a href="shop-details.html">Shop Details</a></li>
+
+                                                                <li><a href="checkout.html">Checkout</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="has-dropdown">
+                                                            <a href="about.html">
+                                                                Pages
+                                                                <i class="fas fa-angle-down"></i>
+                                                            </a>
+                                                            <ul class="submenu">
+                                                                <li><a href="add-product.html">Add Products</a></li>
+                                                                <li><a href="advanced-search.html">Advanced Search</a></li>
+                                                                <li><a href="about.html">About Us</a></li>
+                                                                <li><a href="faq.html">Faq's</a></li>
+
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <a href="news.html">
+                                                                Blog
+                                                                <i class="fas fa-angle-down"></i>
+                                                            </a>
+                                                            <ul class="submenu">
+                                                                <li><a href="news-grid.html">Blog Grid</a></li>
+                                                                <li><a href="news.html">Blog List</a></li>
+                                                                <li><a href="news-details.html">Blog Details</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <a href="contact.html">Contact</a>
+                                                        </li>
+                                                    </ul>
+                                                </nav>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-6 col-lg-2 col-xl-4 col-xxl-2">
+                                    <div class="header-right">
+                                        <div class="category-oneadjust gap-6 d-flex align-items-center">
+                                            <div class="icon">
+                                                <i class="fa-sharp fa-solid fa-grid-2"></i>
+                                            </div>
+                                            <select name="cate" class="category" style="display: none">
+                                                <option value="1">
+                                                    Category
+                                                </option>
+                                                <option value="1">
+                                                    Web Design
+                                                </option>
+                                                <option value="1">
+                                                    Web Development
+                                                </option>
+                                                <option value="1">
+                                                    Graphic Design
+                                                </option>
+                                                <option value="1">
+                                                    Softwer Eng
+                                                </option>
+                                            </select>
+
+                                            <div class="nice-select category" tabindex="0"><span class="current">
+                                                    Category
+                                                </span><ul class="list"><li data-value="1" class="option selected focus">
+                                                        Category
+                                                    </li><li data-value="1" class="option">
+                                                        Web Design
+                                                    </li><li data-value="1" class="option">
+                                                        Web Development
+                                                    </li><li data-value="1" class="option">
+                                                        Graphic Design
+                                                    </li><li data-value="1" class="option">
+                                                        Softwer Eng
+                                                    </li></ul>
+                                            </div>
+
+                                            <form action="#" class="search-toggle-box d-md-block">
+                                                <div class="input-area">
+                                                    <input type="text" placeholder="Author">
+                                                    <button class="cmn-btn">
+                                                        <i class="far fa-search"></i>
+                                                    </button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="menu-cart">
+                                            <a href="wishlist.html" class="cart-icon">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </a>
+                                            <a href="shop-cart.html" class="cart-icon">
+                                                <i class="fa-regular fa-cart-shopping"></i>
+                                            </a>
+                                            <div class="header-humbager ml-30">
+                                                <a class="sidebar__toggle" href="javascript:void(0)">
+                                                    <div class="bar-icon-2">
+                                                        <img src="assets/img/icon/icon-13.svg" alt="img">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </header>
+
+            <!-- Main Header Section start  -->
+
+
+            <header class="header-1" >
+                <div class="mega-menu-wrapper">
+                    <div class="header-main">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-6 col-md-6 col-lg-10 col-xl-8 col-xxl-10">
+                                    <div class="header-left">
+                                        <div class="logo">
+                                            <a href="index.html" class="header-logo">
+                                                <img src="assets/img/logo/white-logo.svg" alt="logo-img">
+                                            </a>
+                                        </div>
+                                        <div class="mean__menu-wrapper">
+                                            <div class="main-menu">
+                                                <nav id="mobile-menu">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="index.html">
+                                                                Home
+                                                                <i class="fas fa-angle-down"></i>
+                                                            </a>
+
+                                                        </li>
+                                                        <li>
+                                                            <a href="shop.html">
+                                                                Shop
+                                                                <i class="fas fa-angle-down"></i>
+                                                            </a>
+                                                            <ul class="submenu">
+                                                                <li><a href="shop.html">Shop Default</a></li>
+                                                                <li><a href="shop-list.html">Shop List</a></li>
+                                                                <li><a href="shop-details.html">Shop Details</a></li>
+
+                                                                <li><a href="checkout.html">Checkout</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="has-dropdown">
+                                                            <a href="about.html">
+                                                                Pages
+                                                                <i class="fas fa-angle-down"></i>
+                                                            </a>
+                                                            <ul class="submenu">
+                                                                <li><a href="add-product.html">Add Products</a></li>
+                                                                <li><a href="advanced-search.html">Advanced Search</a></li>
+                                                                <li><a href="about.html">About Us</a></li>
+                                                                <li><a href="faq.html">Faq's</a></li>
+
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <a href="news.html">
+                                                                Blog
+                                                                <i class="fas fa-angle-down"></i>
+                                                            </a>
+                                                            <ul class="submenu">
+                                                                <li><a href="news-grid.html">Blog Grid</a></li>
+                                                                <li><a href="news.html">Blog List</a></li>
+                                                                <li><a href="news-details.html">Blog Details</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <a href="contact.html">Contact</a>
+                                                        </li>
+                                                    </ul>
+                                                </nav>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-6 col-lg-2 col-xl-4 col-xxl-2">
+                                    <div class="header-right">
+                                        <div class="category-oneadjust gap-6 d-flex align-items-center">
+                                            <div class="icon">
+                                                <i class="fa-sharp fa-solid fa-grid-2"></i>
+                                            </div>
+                                            <select name="cate" class="category" style="display: none">
+                                                <option value="1">
+                                                    Category
+                                                </option>
+                                                <option value="1">
+                                                    Web Design
+                                                </option>
+                                                <option value="1">
+                                                    Web Development
+                                                </option>
+                                                <option value="1">
+                                                    Graphic Design
+                                                </option>
+                                                <option value="1">
+                                                    Softwer Eng
+                                                </option>
+                                            </select>
+
+                                            <div class="nice-select category" tabindex="0"><span class="current">
+                                                    Category
+                                                </span><ul class="list"><li data-value="1" class="option selected focus">
+                                                        Category
+                                                    </li><li data-value="1" class="option">
+                                                        Web Design
+                                                    </li><li data-value="1" class="option">
+                                                        Web Development
+                                                    </li><li data-value="1" class="option">
+                                                        Graphic Design
+                                                    </li><li data-value="1" class="option">
+                                                        Softwer Eng
+                                                    </li></ul>
+                                            </div>
+
+
+                                            <form action="#" class="search-toggle-box d-md-block">
+                                                <div class="input-area">
+                                                    <input type="text" placeholder="Author">
+                                                    <button class="cmn-btn">
+                                                        <i class="far fa-search"></i>
+                                                    </button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="menu-cart">
+                                            <a href="wishlist.html" class="cart-icon">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </a>
+                                            <a href="shop-cart.html" class="cart-icon">
+                                                <i class="fa-regular fa-cart-shopping"></i>
+                                            </a>
+                                            <div class="header-humbager ml-30">
+                                                <a class="sidebar__toggle" href="javascript:void(0)">
+                                                    <div class="bar-icon-2">
+                                                        <img src="assets/img/icon/icon-13.svg" alt="img">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+
+            <!-- Page Content  -->
+
+            <!-- Breadcumb Section Start -->
+            <div class="breadcrumb-wrapper">
+                <div class="book1">
+                    <img src="assets/img/hero/book1.png" alt="book">
+                </div>
+                <div class="book2">
+                    <img src="assets/img/hero/book2.png" alt="book">
+                </div>
+                <div class="container">
+                    <div class="page-heading">
+                        <h1>Add Product</h1>
+                        <div class="page-header">
+                            <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".3s">
+                                <li>
+                                    <a href="index.html">
+                                        Home
+                                    </a>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </li>
+                                <li>
+                                    Add Product
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Breadcumb Section End -->
+
+
+            <div id="content-page" class="mt-4 container ">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="iq-card">
+                                <div class="iq-card-header d-flex justify-content-between">
+                                    <div class="iq-header-title">
+                                        <h4 class="card-title">Add Books</h4>
+                                    </div>
+                                </div>
+
+                                <div class="iq-card-body">
+                                    <form action="admin-books.html">
+                                        <div class="form-group">
+                                            <label>Book Name:</label>
+                                            <input type="text" class="form-control" id="bookTitle">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label>Book Category:</label>
+                                            <select class="form-control" id="bookMainCategory" onchange="updateSubCategory()">
+                                                <option  id="bookMainCategoryOption" >Select Book Category</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label>Book Sub Category:</label>
+                                            <select class="form-control" id="bookSubCategory">
+                                                <option  id="bookSubCategoryOption">Select Book Sub Category</option>
+                                            </select>
+                                        </div>
+
+
+                                        <div class="form-group">
+                                            <label>Book Author:</label>
+                                            <select class="form-control" id="bookAuthor">
+                                                <option selected="" disabled="" id="bookAuthorOption">Select Book Author</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputdate">Published Date</label>
+                                            <input type="date" class="form-control" id="bookPublishedDate" >
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleFormControlSelect1">Select Publisher</label>
+                                            <select class="form-control" id="bookPublisher">
+                                                <option selected="" disabled="" id="bookPuplisherOption">Select Publisher</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Book Image:</label>
+                                            <div class="custom-file">
+                                                <input type="file" class="custom-file-input" accept="image/png, image/jpeg" id="bookImage">
+                                                <label class="custom-file-label">Choose file</label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputNumber1">Quantity</label>
+                                            <input type="number" class="form-control" id="bookQuantity" min="1" value="1">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Book Price:</label>
+                                            <input type="text" class="form-control" id="bookPrice">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Book Description:</label>
+                                            <textarea class="form-control" rows="4" id="bookDescription"></textarea>
+                                        </div>
+                                        <button type="button" class="btn btn-primary mb-4" onclick="addNewBook()">Submit</button>
+                                        <button type="reset" class="btn btn-danger mb-4">Reset</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Wrapper END -->
+
+
+        <!-- Footer -->
+        <!-- Footer Section start  -->
+        <footer class="footer-section footer-bg" id="footer-container">
+
+        </footer>
+        <!-- Footer END -->
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.dataTables.min.js"></script>
+        <script src="js/dataTables.bootstrap4.min.js"></script>
+        <!-- Appear JavaScript -->
+        <script src="js/jquery.appear.js"></script>
+        <!-- Countdown JavaScript -->
+        <script src="js/countdown.min.js"></script>
+        <!-- Counterup JavaScript -->
+        <script src="js/waypoints.min.js"></script>
+        <script src="js/jquery.counterup.min.js"></script>
+        <!-- Wow JavaScript -->
+        <script src="js/wow.min.js"></script>
+        <!-- Apexcharts JavaScript -->
+        <script src="js/apexcharts.js"></script>
+        <!-- Slick JavaScript -->
+        <script src="js/slick.min.js"></script>
+        <!-- Select2 JavaScript -->
+        <script src="js/select2.min.js"></script>
+        <!-- Owl Carousel JavaScript -->
+        <script src="js/owl.carousel.min.js"></script>
+        <!-- Magnific Popup JavaScript -->
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <!-- Smooth Scrollbar JavaScript -->
+        <script src="js/smooth-scrollbar.js"></script>
+        <!-- lottie JavaScript -->
+        <script src="js/lottie.js"></script>
+        <!-- am core JavaScript -->
+        <script src="js/core.js"></script>
+        <!-- am charts JavaScript -->
+        <script src="js/charts.js"></script>
+        <!-- am animated JavaScript -->
+        <script src="js/animated.js"></script>
+        <!-- am kelly JavaScript -->
+        <script src="js/kelly.js"></script>
+        <!-- am maps JavaScript -->
+        <script src="js/maps.js"></script>
+        <!-- am worldLow JavaScript -->
+        <script src="js/worldLow.js"></script>
+        <!-- Raphael-min JavaScript -->
+        <script src="js/raphael-min.js"></script>
+        <!-- Morris JavaScript -->
+        <script src="js/morris.js"></script>
+        <!-- Morris min JavaScript -->
+        <script src="js/morris.min.js"></script>
+        <!-- Flatpicker Js -->
+        <script src="js/flatpickr.js"></script>
+        <!-- Style Customizer -->
+        <script src="js/style-customizer.js"></script>
+        <!-- Chart Custom JavaScript -->
+        <script src="js/chart-custom.js"></script>
+        <!-- Custom JavaScript -->
+        <script src="js/custom.js"></script>
+
+        <!-- **********************New JS********************** -->
+
+
+        <!--<< All JS Plugins >>-->
+        <script src="assets/js/jquery-3.7.1.min.js"></script>
+        <!--<< Viewport Js >>-->
+        <script src="assets/js/viewport.jquery.js"></script>
+        <!--<< Bootstrap Js >>-->
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+        <!--<< Waypoints Js >>-->
+        <script src="assets/js/jquery.waypoints.js"></script>
+        <!--<< Counterup Js >>-->
+        <script src="assets/js/jquery.counterup.min.js"></script>
+        <!--<< Swiper Slider Js >>-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <!--<< MeanMenu Js >>-->
+        <script src="assets/js/jquery.meanmenu.min.js"></script>
+        <!--<< Magnific Popup Js >>-->
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <!--<< Wow Animation Js >>-->
+        <script src="assets/js/wow.min.js"></script>
+        <!-- Gsap -->
+        <script src="assets/js/gsap.min.js"></script>
+        <!--<< Main.js >>-->
+        <script type="module" src="assets/js/main.js"></script>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+        <script src="assets/js/init-components.js"></script>
+
+        <script src="assets/js/add-product/add-product.js"></script>
+
+
+    </body></html>

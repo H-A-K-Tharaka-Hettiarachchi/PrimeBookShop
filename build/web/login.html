@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- ======== Page title ============ -->
+        <title>Prime Book Shop</title>
+        <!--<< Favcion >>-->
+        <link rel="shortcut icon" href="assets/img/favicon.png">
+        <!--<< Bootstrap min.css >>-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!--<< All Min Css >>-->
+        <link rel="stylesheet" href="assets/css/all.min.css">
+        <!--<< Animate.css >>-->
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <!--<< Magnific Popup.css >>-->
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <!--<< MeanMenu.css >>-->
+        <link rel="stylesheet" href="assets/css/meanmenu.css">
+        <!--<< Swiper Bundle.css >>-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <!--<< Nice Select.css >>-->
+        <link rel="stylesheet" href="assets/css/nice-select.css">
+        <!--<< Icomoon.css >>-->
+        <link rel="stylesheet" href="assets/css/icomoon.css">
+        <!--<< Main.css >>-->
+        <link rel="stylesheet" href="assets/css/main.css">
+
+    </head>
+    <body>
+
+
+        <div  id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="identityBox">
+                            <div class="form-wrapper">
+                                <h1 id="loginModalLabel">welcome back!</h1>
+                                <input class="inputField" type="email" id="email" name="email" placeholder="Email Address" style="color: gray;" >
+                                <input class="inputField" type="password" id="password" name="password" placeholder="Enter Password" style="color: gray;" >
+                                <div class="input-check remember-me">
+                                    <div class="checkbox-wrapper">
+                                        <input type="checkbox"  class="form-check-input" name="save-for-next" id="saveForNext">
+                                        <label for="saveForNext">Remember me</label>
+                                    </div>
+                                    <div class="text"> <button type="button" onclick="">Forgot Your password?</button> </div>
+                                </div>
+                                <div class="loginBtn input-check remember-me">
+                                    <button type="button" onclick="logIn()" class="rounded-0 login-btn theme-btn rounded-0" >Log in</button>
+                                    <button type="button" onclick="window.location = 'register.html'" style="background-color: white ; border: 2px solid black; color: black" class=" theme-btn rounded-0 register-btn" data-bs-toggle="modal" data-bs-target="#registrationModal">Create
+                                        Account</button>
+                                </div>
+
+
+                                <div class="orting-badge">
+                                    Or
+                                </div>
+                                <div>
+                                    <a class="another-option" href="https://www.google.com/">
+                                        <img src="assets/img/google.png" alt="google"> Continue With Google
+                                    </a>
+                                </div>
+                                <div>
+                                    <a class="another-option another-option-two" href="https://www.facebook.com/">
+                                        <img src="assets/img/facebook.png" alt="google"> Continue With Facebook
+                                    </a>
+                                </div>
+
+                                <div class="form-check-3 d-flex align-items-center from-customradio-2 mt-3">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault">
+                                    <label class="form-check-label">
+                                        I Accept Your Terms &amp; Conditions
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="banner">
+                                <div class="loginBg">
+                                    <img src="assets/img/signUpbg.jpg" alt="signUpBg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--<< All JS Plugins >>-->
+        <script src="assets/js/jquery-3.7.1.min.js"></script>
+        <!--<< Viewport Js >>-->
+        <script src="assets/js/viewport.jquery.js"></script>
+        <!--<< Bootstrap Js >>-->
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <!--<< Nice Select Js >>-->
+        <script src="assets/js/jquery.nice-select.min.js"></script>
+        <!--<< Waypoints Js >>-->
+        <script src="assets/js/jquery.waypoints.js"></script>
+        <!--<< Counterup Js >>-->
+        <script src="assets/js/jquery.counterup.min.js"></script>
+        <!--<< Swiper Slider Js >>-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <!--<< MeanMenu Js >>-->
+        <script src="assets/js/jquery.meanmenu.min.js"></script>
+        <!--<< Magnific Popup Js >>-->
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <!--<< Wow Animation Js >>-->
+        <script src="assets/js/wow.min.js"></script>
+        <!-- Gsap -->
+        <script src="assets/js/gsap.min.js"></script>
+        <!--<< Main.js >>-->
+        <script src="assets/js/main.js"></script>
+
+        <script src="assets/js/login/log-in.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    </body>
+</html>
